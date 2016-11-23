@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.droneracingleague"
+	name="Drone Racing League"
+	version="1.0.0"
+	provider-name="zag">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Drone Racing League</summary>
+    <description lang="en">DRL is the premiere race series for FPV drone racing. The Drone Racing League brings the world's best pilots together to fly the "DRL Racer 2" quadcopters head-to-head through new exciting neon-lit race courses. Drone Racing is the sport of the future. You can find all of the full races, crashes, and competition at www.thedroneracingleague.com.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source>https://github.com/zag2me/plugin.video.droneracingleague</source>
+    <website>http://thedroneracingleague.com/</website>
+    <email>zag@kodi.tv</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+        <screenshot>resources/screenshot-04.jpg</screenshot>
+        <screenshot>resources/screenshot-05.jpg</screenshot>
+        <screenshot>resources/screenshot-06.jpg</screenshot>
+        <screenshot>resources/screenshot-07.jpg</screenshot>
+        <screenshot>resources/screenshot-08.jpg</screenshot>
+        <screenshot>resources/screenshot-09.jpg</screenshot>
+        <banner>resources/banner.jpg</banner>
+        <logo>resources/logo.jpg</logo>
+    </assets>
+    <news>Initial Release</news>
+  </extension>
+</addon>
